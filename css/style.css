@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+:root {
+    --dark-clor:#000;
+    --white-clor:#fff;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 50px;
+    margin: 200px 0 50px 0;
+}
+
+
+/* .home-left {
+    max-width: 450px;
+    text-align: start;
+} */
+
+.home-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.home-title {
+    color: #303066;
+    font-size: 30px;
+    font-weight: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.locations {
+    align-items: center;
+    border: 2px solid #7979ff;
+    border-radius: 1.5625rem;
+    color: #7979ff;
+    display: flex;
+    font-size: 14px;
+    margin: 10px auto 20px auto;
+    padding: .5rem .9375rem .5rem .625rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    column-gap: 10px;
+}
+
+.home-item {
+    color: #7373aa;
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+
+
+.social {
+    max-width: 600px;
+    height: 70px;
+    border-radius: .9375rem;
+    color: var(--white-clor);
+    margin: 0 auto 20px auto;
+    padding: 15px;
+}
+
+.linkdin {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #007bb5;
+}
+.telegram {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #08c;
+}
+.instagram {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #c32aa3;
+}
+.email {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #4c4c4c;
+}
+
+
+@media (min-width:600px) {
+    .home {
+        flex-direction: row;
+        row-gap: 30px;
+    }
+    .locations {
+        margin-left: 0;
+        margin-right: au0to;
+    }
+}
+
